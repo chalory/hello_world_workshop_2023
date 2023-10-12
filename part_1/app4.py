@@ -10,7 +10,5 @@ app = Flask(  # Create a flask app
 @app.route('/')
 def home_page():
   return render_template(
-      'base1.html',  # Template file path, starting from the templates folder. 
+      'base.html',  # Template file path, starting from the templates folder. 
   )
-
-
